@@ -36,21 +36,18 @@ body {
     display: flex;
     padding: 0 pxTorem(10px);
     align-items: center;
+    justify-content: space-around;
 }
 
 .box header ul li {
-    flex: 1;
+    width: pxTorem(60px);
     text-align: center;
     font-size: pxTorem(14px);
     height: 100%;
     line-height: pxTorem(44px);
-    p {
-        height: 100%;
-        width: pxTorem(100px);
-        &.active {
-            color: blue;
-            border-bottom: solid blue 1px;
-        }
+    &.active {
+        color: blue;
+        border-bottom: solid blue 1px;
     }
 }
 
