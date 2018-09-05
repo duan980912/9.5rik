@@ -225,9 +225,16 @@ body {
   flex: 1;
   text-align: center;
   font-size: 0.37333rem;
+  height: 100%;
+  line-height: 1.17333rem;
 }
 
-.box header ul li.active {
+.box header ul li p {
+  height: 100%;
+  width: 2.66667rem;
+}
+
+.box header ul li p.active {
   color: blue;
   border-bottom: solid blue 1px;
 }
